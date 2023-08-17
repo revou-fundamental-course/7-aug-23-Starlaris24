@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script href="./js/script.js"></script>
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Segitiga</h1>
+    </header>
+    <main>
+        <section class="segitiga">
+            <image src="https://www.advernesia.com/wp-content/uploads/2018/10/Segitiga-sembarang.png">
+            <section class="keterangan">Keterangan:
+                <br>t = Tinggi
+                <br>a = Sisi A / Alas
+                <br>b = Sisi B
+                <br>c = Sisi C
+            </section> 
+        </section>
+
+        <section class="input-section">
+            <section class="luas-section">
+                <h2>Kalkulator Luas</h2>
+                <div class="alas">
+                    <label for="alas-input">Alas</label>
+                    <input type="number" id="alas-input" placeholder="alas">
+                </div>
+                <div class="tinggi">
+                    <label for="tinggi-input">Tinggi</label>
+                    <input type="number" id="tinggi-input" placeholder="tinggi">
+                </div>
+                <section class="button">
+                    <button id="totalArea">Hitung Luas</button>
+                    <button id="resetArea">Reset</button>
+                </section>
+                <section class="hasilLuas">Luas Segitiga
+                    <br>= 1/2 x alas x tinggi
+                    <br>= 
+                    <br>=
+                </section>
+            </section>
+
+            <section class="keliling-section">
+                <h2>Kalkulator Keliling</h2>
+                <div>
+                    <label for="A-input">Sisi A</label>
+                    <input type="number" id="A-input" placeholder="a">
+                </div>
+                <div class="B">
+                    <label for="B-input">Sisi B</label>
+                    <input type="number" id="B-input" placeholder="b">
+                </div>
+                <div class="C">
+                    <label for="C-input">Sisi C</label>
+                    <input type="number" id="C-input" placeholder="c">
+                </div>
+                <section class="button">
+                    <button>Hitung Keliling</button>
+                    <button>Reset</button>
+                </section>
+                <section class="hasilKeliling">Keliling Segitiga
+                    <br>= sisi A + sisi B + sisi C
+                    <br>= 
+                    <br>=
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>created by: arisarae24</footer>
+</body>
+</html>
